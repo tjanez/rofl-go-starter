@@ -1,0 +1,6 @@
+services:
+  go_starter:
+    build: .
+    image: ghcr.io/tjanez/rofl-go-starter:0.1.0
+    platform: linux/amd64
+    restart: unless-stopped
